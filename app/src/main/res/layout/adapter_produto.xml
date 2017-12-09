@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:src="@drawable/produto"
+            android:id="@+id/img"
+            android:layout_margin="10dp"
+            android:layout_height="50dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_descricao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="16dp"
+                android:textSize="15dp"
+                android:text="Grupo"
+                android:textColor="#2F4F4F"/>
+            <TextView
+                android:id="@+id/tv_valor"
+                android:textColor="#228B22"
+                android:textSize="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="16dp"
+                android:layout_gravity="right"
+                android:layout_marginRight="16dp"
+                android:textStyle="bold"
+                android:text="R$ 59,90"/>
+        </LinearLayout>
+
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="#D1D1D1"
+        android:layout_height="1dp"></LinearLayout>
+
+
+
+</LinearLayout>
